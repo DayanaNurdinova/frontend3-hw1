@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    font-size: revert;
+    width: 150px;
+    height: 50px;
+    color: cadetblue;
+}
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 499px;
+    border: solid 2px   red;
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    margin-top: 150px;
+}
